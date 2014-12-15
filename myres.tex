@@ -1,0 +1,79 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Alec J. Hanefeld\\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{ \\ Rollbergstr. 1 \\ 12053 Berlin, DE  \\ $\star$21.06.1989
+        }
+\address{ \\ +49 175 768 49 37 \\ alec@hanefeld.eu \\ github.com/ahane \\}
+
+ 
+\begin{resume} 
+ 
+\section{Objective} 
+Python Developer with Data Science Focus
+
+\section{Education} 
+{\bf B. Sc. Industrial Engineering and Management} \hfill April 2010 - Juli 2014 \\
+(Wirtschaftsingenierwesen) \\
+Technische Universit{\"a}t Berlin, DE 
+Concentration in Information \& Communications Systems\\
+Overall Grade: B (1.8) $\cdot$ Thesis Grade: A (1.3)\\
+
+{\bf Education Abroad Program} \hfill September 2012 - May 2013 \\
+University of California, Berkeley, CA 
+Full Tuition Scholarship\\
+Projects on Data Mining, Data Analysis and Data Visualization
+\begin{itemize} \itemsep -2pt  % reduce space between items
+\item Feature-based clustering of n-gram timeseries
+\item Regression between air-pollution and health indicators
+\item Explanatory visualization of GDP timeseries
+ \end{itemize}
+
+{\bf Eniversity-Entrance Diploma} (Abitur)
+\hfill 1999 - 2013 \\
+Staudinger Gesamtschule, Freiburg i. Br., DE  \\
+Grade: A (1.4) $\cdot$ Focus: Physics, Chemistry, Computer Science
+
+\section{Experience} 
+{\bf Digital Strategy Internship} \hfill Juni 2013 - August 2014\\
+Palio+Ignite Advertising Agency, New York City, NY\\
+\begin{itemize} \itemsep -2pt  % reduce space between items
+\item Developed data-scrapig, cross-referencing and visualization tool for unique market insights about health care insurances
+\item Accompanied web analytics efforts for major pharmaceutical brands
+ \end{itemize}
+
+{\bf Community Service (Zivildienst)} \hfill March 2009 - November 2009\\
+Regionalverbund Kirchlicher Krankenh{\"a}user, Freiburg i. Br., DE \\
+IT Support and Administration
+\begin{itemize} \itemsep -2pt  % reduce space between items
+\item User support, trouble shooting and repairs at 3000 employee hospital group
+\item Maintainance of legacy VBA scripts
+\end{itemize}
+
+
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Software Development \\ Skills}
+   \begin{tabular}{l p{3in}}
+    \underline{Python:} & pandas, numpy, flask, scrapy \\
+
+     \underline{Software:} &  SPIRES, dBase III, Datastar database 
+                        systems, GPSS simulation, FCS-EPS financial 
+                        planning, SAS statistical analysis, 
+                        Lotus1-2-3, MPSX optimization modeling 
+ \end{tabular}
+
+\end{resume} 
+\end{document} 
+
+
+
